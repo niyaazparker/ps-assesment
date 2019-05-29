@@ -2,6 +2,7 @@
     .container {width: 700px;}
     .theBg {display: none;}
     .header { background: $primary-color !important;}
+    
 }
 @media only screen and (min-width: 992px) {
     
@@ -78,8 +79,15 @@
         height: 100px !important;
        
     }
+    
+    .link {
+        padding: 0 1em !important;
+        a {
+        padding: 14px 10px;
+        }
+    }
     .header.filterhead {
-        height: 220px !important ;
+        height: 108px !important;
     }
     .bm-item-list > * {
         flex-wrap: wrap;
@@ -141,6 +149,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+    .header.filterhead {
+        height: 220px !important;
+    }
     img.mobile-width {width: 100%;height: auto;padding: 0 15px;}
     .m-100 {flex-basis: 100%;}
     .m-50 {flex-basis: 50% !important;}

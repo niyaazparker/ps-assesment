@@ -76,6 +76,27 @@ input[type=text] {
 .m-menu {
   .bm-menu {left:0 !important}
   .bm-burger-button {left:36px !important}
+  .bm-burger-button::after {
+    content: "Menu";
+    font-size: 20px;
+    color: $green-7;
+    margin: 0;
+    position: relative;
+    left: 46px;  
+  }
+}
+.t-menu {
+ .bm-burger-button::before {
+  content: "More +";
+  font-size: 20px;
+  color: #6b7c55;
+  margin: 0;
+  position: relative;
+  right: 74px;
+  bottom: 0;
+  width: 200px;
+  display: inline-block;
+}
 }
 .bm-burger-bars {
   background-color: $green-7;
