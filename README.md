@@ -3,7 +3,7 @@
 ## Project setup
 
 ```
-Open up project and run 'npm run serve' in terminal, project can be viewed on http://localhost:8080/
+Open up project and run 'npm install' 'npm run serve' in terminal, project can be viewed on http://localhost:8080/
 ```
 
 ## Things i would change about the https://www.onlineskinshop.co.za/ website
