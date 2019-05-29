@@ -1,0 +1,49 @@
+.main-wrapper {
+    background: url('https://onlineskinshop-f38c.kxcdn.com//content/uploads/2015/07/skin-hero-mobile.png') no-repeat;
+    background-size: 1055px  auto;
+    background-position: center right; 
+    padding: 100px 0;
+    h1.main-section__title {
+        font-size: 65px;
+        font-family: $secondary-font;
+        color: $tertiary-color;
+        margin: 15px 0;
+        display: block;
+        line-height: normal;
+        padding-bottom: 0;
+    }
+    p.main-section__content {
+        font-size: $size-4;
+        line-height: 30px;
+        color: $tertiary-color;
+    }
+}
+.main-wrapper.feature {
+    background: $grey-5;
+    .column {
+        background: $white;
+        padding: 35px;
+        margin: 0 20px;
+        h1.main-section__title {
+            text-align: center;
+            color: $green-2;
+        }
+        
+        p {
+            text-align: center;
+            font-size:$size-4;
+            margin: 0 auto 20px;
+            line-height: 30px;
+            color: $green-2;
+        }
+        p.main-section-content {
+            color: $tertiary-color;
+        }
+        img {
+            margin: auto;
+        }
+        .btn-primary {
+            margin: 20px auto;
+        }
+    }
+}
